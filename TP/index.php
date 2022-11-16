@@ -5,3 +5,6 @@
 
 // Bien commenter le code de tous les exos d'avant :)
 // On peut créer des class objet mais il faut utiliser des tableaux
+
+
+

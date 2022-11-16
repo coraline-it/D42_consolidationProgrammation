@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Exercice <?php echo "2"; ?></title>
-  <link rel="stylesheet" href="../Exercice1/style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <div class="top">
