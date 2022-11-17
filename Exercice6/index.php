@@ -8,8 +8,8 @@
 --------------------------------------------------------------------- */
 
 // On stock dans des variables les infos nécessaires à l'exercice
-$msg = nl2br("Bonjour, c'est moi.\r T'es le bien venu sur mon site.");
-$nom = "Raiky fluffy baby puppy";
+$msgAModifier = nl2br("Bonjour, c'est moi.\r T'es le bien venu sur mon site.");
+$nomAInserer = "Raiky fluffy baby puppy";
 $sToReplace = "moi";
 ?>
 
@@ -28,9 +28,13 @@ $sToReplace = "moi";
      On affiche le résultat du remplacement de la valeur de $sToReplace par celle de la variable
      $nom, dans la string de la variable $msg.
 -->
+
+  <!--   /!\ Ajouter affichage ancien message avant -->
     <p>
-        <?php if(str_contains($msg,$sToReplace)) {
-            echo str_replace($sToReplace,$nom,$msg);
+        <?php
+        echo "Message de base: ".$msgAModifier.'<br>';
+        if(str_contains($msgAModifier,$sToReplace)) {
+            echo "<br> Message modifié: ".str_replace($sToReplace,$nomAInserer,$msgAModifier);
         }?>
     </p>
 </div>
