@@ -1,3 +1,6 @@
+<style>
+    <?php include '../style.css'; ?>
+</style>
 <?php
 
 use Applications\MAMP\htdocs\D42\Exercice9\Livre\Livre;

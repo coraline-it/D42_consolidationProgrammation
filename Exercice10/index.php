@@ -1,3 +1,6 @@
+<style>
+  <?php include '../style.css'; ?>
+</style>
 <?php
 
 use Applications\MAMP\htdocs\D42\Exercice9\Livre\Livre;
@@ -9,8 +12,8 @@ $myConnection = new PDO('mysql:host=localhost:8889;dbname=D42_bdd;charset=utf8',
     'root'
 );
 
-//$log = fopen("c:\\\folder\\\log.txt","r");
-//$content = fgets($log, 4096);
+//$log = fopen("/log/log.txt","r+");
+//$content = fgets($log, 10000);
 //fclose($log);
 
 $allBooksQR = 'SELECT * FROM book';
