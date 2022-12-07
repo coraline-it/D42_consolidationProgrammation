@@ -7,10 +7,11 @@ use Applications\MAMP\htdocs\D42\Exercice9\Livre\Livre;
 
 require('../Exercice9/Livre.php');
 
-$myConnection = new PDO('mysql:host=localhost:8889;dbname=D42_bdd;charset=utf8',
+$myConnection = new PDO('mysql:host=localhost;port=8889;dbname=D42_bdd;charset=utf8',
     'root',
     'root'
 );
+
 
 //$log = fopen("/log/log.txt","r+");
 //$content = fgets($log, 10000);
