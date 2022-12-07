@@ -1,3 +1,15 @@
+<!-- Exercice 2
+
+Ecrire une page Php qui reprend l’exercice 1,
+mais les valeurs des balises <p> et <img> sont
+renseignées en Php
+
+- Par exemple, le code PHP doit afficher le contenu
+de l’attribut alt
+- Le code Php doit afficher le contenu Hello World
+
+-->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

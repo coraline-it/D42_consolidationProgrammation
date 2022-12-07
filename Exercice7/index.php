@@ -7,6 +7,7 @@
 // Chaque nom aura un role attribué
 // Afficher la page modifiée selon choix de nom
 
+// On déclare les rôles
 $role = [
     'admin' => 'vous êtes l\'administrateur du site',
     'gestionnaire' => 'vous êtes gestionnaire du site',
@@ -30,6 +31,8 @@ $nom = ['Claudie', 'Sam', 'Logidell'];
     <div>
       <p>Veuillez vous identifier</p>
     </div>
+  <!-- Création d'un formulaire en méthod POST pour que l'utilisateur choisisse son nom dans la liste
+   les value="" correspondent à chacune des entrées de $role -->
     <form action="" method="post">
         <div>
             <select name="Nom">
@@ -42,6 +45,7 @@ $nom = ['Claudie', 'Sam', 'Logidell'];
     <input type="submit" name="submit" value="Ok">
     </form>
     <?php
+    // Selon le choix de l'utilisateur il lui est indiqué son rôle au submit du formulaire
     if(isset($_POST['submit'])) {
           switch ($_POST['Nom']) {
             case '':

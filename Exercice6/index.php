@@ -1,6 +1,6 @@
 <?php
 
-/* ---------------------------------------------------------------------
+/*  Exercice 6 ---------------------------------------------------------------------
     - Modifier le texte pour remplacer "moi" par votre prénom:
     'Bonjour, c'est moi.
      T'es le bien venu sur mon site.'

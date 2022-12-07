@@ -1,3 +1,10 @@
+<!-- Exercice 10
+
+- Créer une base de données Bibliotheque
+- Créer une table Livre
+
+-->
+
 <style>
   <?php include '../style.css'; ?>
 </style>
